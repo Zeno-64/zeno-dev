@@ -1,0 +1,13 @@
+{
+  // Nome do Worker que vai servir zeno.dev.br. Se um dia o Worker no
+  // painel tiver outro nome, ajuste aqui — nome diferente faz o deploy
+  // criar um Worker novo e vazio.
+  "name": "zeno-dev",
+  "compatibility_date": "2024-11-01",
+  "assets": {
+    "directory": "./dist",
+    // As rotas são do React Router. Rotas conhecidas já têm um HTML
+    // gerado no build (meta-por-rota); o resto cai no index.html.
+    "not_found_handling": "single-page-application"
+  }
+}
